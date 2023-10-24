@@ -1,16 +1,22 @@
-# animations
+# Animaciones con flutter
 
-A new Flutter project.
+Las animaciones alojadas en el proyecto son animaciones sencillas pero que bien pueden darle mas vida a nuestra aplicacion.
 
-## Getting Started
+## Contenido
 
-This project is a starting point for a Flutter application.
+- Login Screen animated:
+  Login animado aplicando todas las animaciones del proyecto (Solo diseno)
+- ScaleAnimation:
+  Al dibujarse un widget se mostrara un efecto de zoom en el que el widget va de pequeno a grande (Su tamano asignado)
+- LoadingAnimation:
+  Boton de carga que al dar click en el boton este se empezara a encoger hasta llegar a un tamano asignado en el cual mostrara un CircularProgressIndicator para simular asi una carga
+- TranslationAnimation:
+  Con TwenAnimationBuilder conseguimos hacer un efecto de desplazamiento en 4 direcciones: arriba, abajo, derecha izquierda.
+- DoneAnimation:
+  Un boton animado que mezcla el loading con un icono de done al finalizar la animacion.
 
-A few resources to get you started if this is your first Flutter project:
+Sobra decir que todo lo que esta puede ser reemplzado y mejorado al gusto, esto es solo un ejemplo de como implementar.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Proximamente estare subiendo detalles de como funciona la logica de cada animacion.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+> Interesados en colaborar en algun proyecto son bienvenidos
